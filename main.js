@@ -79,6 +79,31 @@ console.log("Squadre con nomi e falli subiti:", squadreFalli);
 Scrivere una funzione che accetti tre argomenti, un array ( esempio: ['Michele', 'Fabio', 'Roberto', 'Giovanni', 'Simone', 'Chiara'] )e due numeri (a più piccolo di b).
 La funzione ritornerà un nuovo array con li elementi estratti dall'array di partenza che hanno la posizione compresa tra i due numeri (a e b).*/
 
+let citta = ['Michele', 'Fabio', 'Roberto', 'Giovanni', 'Simone', 'Chiara']
+let nomi = []
+
+function myFunction (michael, a, b){
+   for (let i = 0; i < citta.length; i++){
+    if( i > a && i < b ){
+    michael.push(citta[i])
+   }
+   }
+
+   console.log(nomi)
+}
+   
+myFunction(nomi, 2, 4)
+   
+
+  
+  
+
+   
+
+
+
+
+
 
 
 
