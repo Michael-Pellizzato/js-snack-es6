@@ -43,3 +43,8 @@ const bici = [
     }
   ];
 
+
+let biciLeggera = []
+
+
+
